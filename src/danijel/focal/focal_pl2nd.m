@@ -1,5 +1,6 @@
 function [anx,any,anz,dx,dy,dz,ierr] = pl2nd(strike,dip,rake)
     
+    %  Original routines from FPSpack.f - Gasperini and Vannucci, Computer & Geosciences, 2003
     % compute Cartesian components of outward normal and slip vectors from strike, dip and rake
     %
     %     usage:
