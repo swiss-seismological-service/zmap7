@@ -1,5 +1,5 @@
 function [anx,any,anz,dx,dy,dz,ierr] = focal_pt2nd(wpx,wpy,wpz,wtx,wty,wtz)
-    
+    %  Original routines from FPSpack.f - Gasperini and Vannucci, Computer & Geosciences, 2003
     % compute Cartesian component of P and T versors from outward normal and slip vectors
     %
     %     usage:
