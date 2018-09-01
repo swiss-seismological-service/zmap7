@@ -1,5 +1,5 @@
 function [phi,delta,alam,dipdir,ierr] = focal_nd2pl(wanx,wany,wanz,wdx,wdy,wdz)
-    
+    %  Original routines from FPSpack.f - Gasperini and Vannucci, Computer & Geosciences, 2003
     % compute strike, dip, rake and dip directions from Cartesian components of the outward normal and slip vectors
     %
     %     usage:
