@@ -1,5 +1,5 @@
 function [ang] = focal_angle(wax,way,waz,wbx,wby,wbz)
-    
+    %  Original routines from FPSpack.f - Gasperini and Vannucci, Computer & Geosciences, 2003
     % compute the angle (in degrees) between two vectors
     %
     %     usage:
