@@ -1,5 +1,5 @@
 function [strika,dipa,rakea,dipdia,strikb,dipb,rakeb,dipdib,ierr] = pt2pl(trendp,plungp,trendt,plungt)
-    
+    %  Original routines from FPSpack.f - Gasperini and Vannucci, Computer & Geosciences, 2003
     % compute strike dip and rake (and dip direction) of two nodal planes from trend and plung of P and T axes
     %
     %     usage:

@@ -1,4 +1,5 @@
 function [ax,ay,az,ierr] = ax2ca(trend,plunge)
+    %  Original routines from FPSpack.f - Gasperini and Vannucci, Computer & Geosciences, 2003
     % compute cartesian components from trend and plunge
     %
     %     usage:

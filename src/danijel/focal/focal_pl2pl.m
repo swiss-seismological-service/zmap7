@@ -1,5 +1,6 @@
 function [strikb,dipb,rakeb,dipdib,ierr] = focal_pl2pl(strika,dipa,rakea)
     
+    %  Original routines from FPSpack.f - Gasperini and Vannucci, Computer & Geosciences, 2003
     % compute strike, dip and rake of a nodal plane from strike, dip and rake of the other one
     %
     %
