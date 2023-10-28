@@ -1,5 +1,5 @@
 function [anorm,ax,ay,az] = focal_norm(wax,way,waz)
-    
+    %  Original routines from FPSpack.f - Gasperini and Vannucci, Computer & Geosciences, 2003
     % compute euclidean norm and versor components
     %
     %     usage:
